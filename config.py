@@ -7,37 +7,37 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID",))
-API_HASH = getenv("API_HASH",)
+API_ID = int(getenv("19769686",))
+API_HASH = getenv("515b64f5d2d955cdd6aa85a808fd4cb4",)
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN",)
+BOT_TOKEN = getenv("7128782242:AAENypkyECvS57mm7nGhIQNvqkTWQS2VLeI",)
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "Systumm_music_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "NergizMusicbot")
 
 # Get Your repo
 REPO_LINK = getenv("REPO_LINK" , "https://t.me/BRANDED_PAID_CC")
 
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "Sytumm")
+BOT_NAME = getenv("BOT_NAME" , "Nergiz Music")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI",)
+MONGO_DB_URI = getenv("mongodb+srv://ravigotdu18272:<db_password>@cluster0.ifr2tes.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID",))
+LOGGER_ID = int(getenv("-1002621326403",))
 
 # Get this value from @CrewMusic_bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6258877205))
+OWNER_ID = int(getenv("6671591267", ))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("nergizherokbot")
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("HRKU-d7849f0d-bd49-417a-9a6f-1453c10ad58a")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
@@ -48,8 +48,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BRANDRD_BOT")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BRANDED_WORLD")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/NergizMusicSupport")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/NergizSupport")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
